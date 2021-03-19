@@ -1,11 +1,11 @@
 <style>
-.logo {
-    max-height: 100%;
-    max-width: 100%;
-    display: flex;
-    
-}
 
+.google {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -16,26 +16,35 @@ li {
     display: inline;
 }
 
-#right-nav {
+.right-nav {
     display: block;
     position: absolute;
-    right: 150px;
+    top: 0;
+    right: 0;
 }
 
-#search {
-    display: block;
+.search {
     margin-left: auto;
     margin-right: auto;
-    width: 50px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 #button {
-    display: block;
-    
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .bot-nav {
-    background-color: #f2f2f2;
+    border: 3px solid #f2f2f2;
 }
 
 .nav-bot {
@@ -43,12 +52,16 @@ li {
 }
 
 .bot-nav-left {
-    float: left;
-    min-width: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .bot-nav-right {
-    float: right;
-    min-width: 30%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
+
 </style>
