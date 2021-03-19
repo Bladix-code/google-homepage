@@ -1,0 +1,54 @@
+<style>
+.logo {
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+#right-nav {
+    display: block;
+    position: absolute;
+    right: 150px;
+}
+
+#search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+}
+
+#button {
+    display: block;
+    
+}
+
+.bot-nav {
+    background-color: #f2f2f2;
+}
+
+.nav-bot {
+    padding: 0 20px;
+}
+
+.bot-nav-left {
+    float: left;
+    min-width: 30%;
+}
+
+.bot-nav-right {
+    float: right;
+    min-width: 30%;
+}
+</style>
